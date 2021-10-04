@@ -8,4 +8,6 @@ It demonstrates the use of:
     - state
     - props
     - form submission
+    - array.prototype.concat() 
+    - array.prototype.filter()
 

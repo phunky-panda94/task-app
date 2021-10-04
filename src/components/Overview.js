@@ -7,7 +7,10 @@ class Overview extends Component {
             <div>
                 <ul>
                     {this.props.tasks.map((task, index) => 
-                        <li key={index}>{task}</li>
+                        <li key={index}>{task}
+                            <button>Edit</button>
+                            <button onClick={() => this.props.onDelete(index)}>Delete</button>
+                        </li>
                     )}
                 </ul>
             </div>
