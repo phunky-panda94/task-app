@@ -1,0 +1,7 @@
+li > input:disabled {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: unset;
+}
+
